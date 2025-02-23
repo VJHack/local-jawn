@@ -24,6 +24,8 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
+import type { LlamaContext } from 'llama.rn';
+
 type SectionProps = PropsWithChildren<{
   title: string;
 }>;
